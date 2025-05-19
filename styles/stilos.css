@@ -1,7 +1,7 @@
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family:'MiFuente', Anzisar-sans;
   background-color: #000;
   color: #fff;
   line-height: 1.6;
@@ -150,5 +150,8 @@ a:hover {
   color: #007bff;
   text-decoration: underline;
 }
-
+@font-face {
+  font-family: 'MiFuente';
+  src: url('../fonts/MiFuente.ttf') format('truetype');
+}
 
