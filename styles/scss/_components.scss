@@ -1,0 +1,35 @@
+.boton {
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 10px 0;
+  background-color: $color-header;
+  color: $color-header-texto;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #ccc;
+  }
+}
+
+.card {
+  border: 1px solid $color-texto;
+  padding: 15px;
+  margin-bottom: 20px;
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+}
+
+.contenedor-autos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}

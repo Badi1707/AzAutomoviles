@@ -1,0 +1,22 @@
+footer {
+  background-color: $color-header;
+  color: $color-header-texto;
+  text-align: center;
+  padding: 20px;
+}
+
+.redes {
+  margin-top: 10px;
+}
+
+.icono-red {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  vertical-align: middle;
+  transition: transform 0.2s ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}

@@ -31,6 +31,15 @@ footer {
   height: 80px;
   border-radius: 50%;
   object-fit: cover;
+  animation: girar 4s linear infinite;
+}
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 nav ul {
   list-style: none;
